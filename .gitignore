@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model Checkpoints, Weights, and Artifacts
+results/
+bert-squad-finetuned/
+eval_temp/
+checkpoint-*/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Data and Cache
+.cache/
+datasets_cache/
+huggingface/
+wandb/
+runs/
+*.log
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
