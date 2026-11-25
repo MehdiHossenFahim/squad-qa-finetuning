@@ -115,7 +115,7 @@ squad-qa-finetuning/
 ### 1. Environment Setup
 
 ```bash
-git clone https://github.com/<your-username>/squad-qa-finetuning.git
+git clone https://github.com/MehdiHossenFahim/squad-qa-finetuning.git
 cd squad-qa-finetuning
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
